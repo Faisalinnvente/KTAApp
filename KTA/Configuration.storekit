@@ -1,0 +1,195 @@
+{
+  "products" : [
+
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "CF6C6A6D",
+      "localizations" : [
+
+      ],
+      "name" : "AnnualSubscriptions",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "85961885",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.sggroups.keto.annual50",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Welcome Offer 50% Off Annual",
+          "subscriptionGroupID" : "CF6C6A6D",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "19.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "BC9D16FD",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.sggroups.keto.annual67",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Welcome Offer 67% Off Annual",
+          "subscriptionGroupID" : "CF6C6A6D",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "39.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "BB77B800",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.sggroups.keto.annual33",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Introductory Offer 33% Off Annual",
+          "subscriptionGroupID" : "CF6C6A6D",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "FD78F259",
+      "localizations" : [
+
+      ],
+      "name" : "Quarterly Subscriptions",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "514A3E4E",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.sggroups.keto.quarter1",
+          "recurringSubscriptionPeriod" : "P3M",
+          "referenceName" : "Welcome Offer 67% Off 3 Months",
+          "subscriptionGroupID" : "FD78F259",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "11.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "173EAE5E",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.sggroups.keto.quarter2",
+          "recurringSubscriptionPeriod" : "P3M",
+          "referenceName" : "Welcome Offer 50% Off 3 Months",
+          "subscriptionGroupID" : "FD78F259",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "13.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "7D0339EE",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.sggroups.keto.quarterintroductory",
+          "recurringSubscriptionPeriod" : "P3M",
+          "referenceName" : "Introductory Offer 33% Off 3 Months",
+          "subscriptionGroupID" : "FD78F259",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "72DCCDB4",
+      "localizations" : [
+
+      ],
+      "name" : "Monthly Subscription",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "0D9778A8",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.sggroups.keto.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly Pro Subscription",
+          "subscriptionGroupID" : "72DCCDB4",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}

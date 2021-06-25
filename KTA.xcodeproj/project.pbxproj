@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		151F85570258AD3F2A4BEBB0 /* Pods_KTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE32B682A4EE7A76D2938035 /* Pods_KTA.framework */; };
+		460506C425CF3C41006A1418 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460506C325CF3C41006A1418 /* Colors.xcassets */; };
+		460506C825CF41B7006A1418 /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460506C725CF41B7006A1418 /* GoalViewController.swift */; };
+		460506CB25CF5979006A1418 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460506CA25CF5979006A1418 /* SignInViewController.swift */; };
+		460506CE25CF5CFA006A1418 /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460506CD25CF5CFA006A1418 /* AgeViewController.swift */; };
+		460506D125CF5F49006A1418 /* HeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460506D025CF5F49006A1418 /* HeightViewController.swift */; };
+		460506D425CF6104006A1418 /* CurrentWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460506D325CF6104006A1418 /* CurrentWeightViewController.swift */; };
+		460506D725CF6286006A1418 /* GoalWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460506D625CF6286006A1418 /* GoalWeightViewController.swift */; };
+		460506DA25CF6465006A1418 /* DurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460506D925CF6465006A1418 /* DurationViewController.swift */; };
+		460506E925D0A4A5006A1418 /* CustomUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460506E825D0A4A5006A1418 /* CustomUISlider.swift */; };
+		460FC01425DF029600078D1A /* GradientCircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FC01325DF029600078D1A /* GradientCircularProgressBar.swift */; };
+		460FC01D25DF07DC00078D1A /* MealTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FC01C25DF07DC00078D1A /* MealTrackingViewController.swift */; };
+		460FC02125DF195200078D1A /* LogWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FC02025DF195200078D1A /* LogWeightViewController.swift */; };
+		4625CF8D25D49A1B008FF28D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625CF8C25D49A1B008FF28D /* TabBarViewController.swift */; };
+		4629340A25EE7D5D004536AC /* CustomMealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629340825EE7D5D004536AC /* CustomMealTableViewCell.swift */; };
+		4629340B25EE7D5D004536AC /* CustomMealTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4629340925EE7D5D004536AC /* CustomMealTableViewCell.xib */; };
+		4629340E25EE82E7004536AC /* RecepieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629340D25EE82E7004536AC /* RecepieDetailsViewController.swift */; };
+		4629341125EE8BA8004536AC /* CustomMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629341025EE8BA8004536AC /* CustomMeal.swift */; };
+		4629341525EE9E77004536AC /* KTADB.db in Resources */ = {isa = PBXBuildFile; fileRef = 4629341425EE9E77004536AC /* KTADB.db */; };
+		4629341825EFADA2004536AC /* CustomMealsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629341725EFADA2004536AC /* CustomMealsDetailsViewController.swift */; };
+		4629341B25EFB715004536AC /* AddCustomMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629341A25EFB715004536AC /* AddCustomMealViewController.swift */; };
+		462C65C52610014E00DF6DFD /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C65C42610014E00DF6DFD /* FiltersViewController.swift */; };
+		462E76A125D553EA006D493D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E76A025D553EA006D493D /* HomeViewController.swift */; };
+		462E76A425D553F5006D493D /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E76A325D553F5006D493D /* FoodViewController.swift */; };
+		462E76A725D55400006D493D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E76A625D55400006D493D /* ChatViewController.swift */; };
+		462E76AA25D5540B006D493D /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E76A925D5540B006D493D /* MoreViewController.swift */; };
+		462E76AD25D5543D006D493D /* RecepiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E76AC25D5543D006D493D /* RecepiesViewController.swift */; };
+		462E76B625D5CE12006D493D /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E76B525D5CE12006D493D /* TermsViewController.swift */; };
+		462E76B925D5CE29006D493D /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E76B825D5CE29006D493D /* DisclaimerViewController.swift */; };
+		462E76BC25D5CE37006D493D /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E76BB25D5CE37006D493D /* FeedbackViewController.swift */; };
+		462E76BF25D5CE46006D493D /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E76BE25D5CE46006D493D /* InviteViewController.swift */; };
+		4644D67A25F6A00A00136CEE /* ActivityLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4644D67925F6A00A00136CEE /* ActivityLevelViewController.swift */; };
+		46567D2F2610E18D00747345 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46567D2E2610E18D00747345 /* JoinViewController.swift */; };
+		46567D322610E1C500747345 /* InAppPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46567D312610E1C500747345 /* InAppPurchaseViewController.swift */; };
+		46567D352610E1EF00747345 /* ThanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46567D342610E1EF00747345 /* ThanksViewController.swift */; };
+		46567D382610E24100747345 /* StartJourneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46567D372610E24100747345 /* StartJourneyViewController.swift */; };
+		46567D4F26113EA700747345 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46567D4E26113EA700747345 /* StoreKit.framework */; };
+		465E30CC260A9D8C00FD35C2 /* BreakFastReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E30CB260A9D8C00FD35C2 /* BreakFastReminderViewController.swift */; };
+		465E30CF260A9DA900FD35C2 /* LunchReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E30CE260A9DA900FD35C2 /* LunchReminderViewController.swift */; };
+		465E30D2260A9DB700FD35C2 /* DinnerReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E30D1260A9DB700FD35C2 /* DinnerReminderViewController.swift */; };
+		465E30D5260A9DC500FD35C2 /* WaterReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E30D4260A9DC500FD35C2 /* WaterReminderViewController.swift */; };
+		465E30D8260A9DD700FD35C2 /* WeightLogReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E30D7260A9DD700FD35C2 /* WeightLogReminderViewController.swift */; };
+		467E318425F024DA00462E08 /* MealTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E318325F024DA00462E08 /* MealTracking.swift */; };
+		468481692601626000493D53 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468481682601626000493D53 /* Bookmark.swift */; };
+		4684816F2602AB3100493D53 /* PersonalSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4684816E2602AB3100493D53 /* PersonalSettingsViewController.swift */; };
+		468481722602AB4500493D53 /* NotificationsSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468481712602AB4500493D53 /* NotificationsSettingsViewController.swift */; };
+		468481752602AE0000493D53 /* UpdateActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468481742602AE0000493D53 /* UpdateActivityViewController.swift */; };
+		468481782602AE1500493D53 /* UpdateAgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468481772602AE1500493D53 /* UpdateAgeViewController.swift */; };
+		4684817B2602AE2600493D53 /* UpdateHeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4684817A2602AE2600493D53 /* UpdateHeightViewController.swift */; };
+		4684817E2602AE3900493D53 /* UpdateCurrentWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4684817D2602AE3900493D53 /* UpdateCurrentWeightViewController.swift */; };
+		468481812602AE4800493D53 /* UpdateTargetWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468481802602AE4700493D53 /* UpdateTargetWeightViewController.swift */; };
+		4692886F25F6CCFA00B91F38 /* CaloriesDepleted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692886E25F6CCFA00B91F38 /* CaloriesDepleted.swift */; };
+		4692887225F6CD0900B91F38 /* WeightTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692887125F6CD0900B91F38 /* WeightTracking.swift */; };
+		4692887525F6CD1C00B91F38 /* WaterTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692887425F6CD1C00B91F38 /* WaterTracking.swift */; };
+		4692887825F6D3B100B91F38 /* CaloriesDepletedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692887725F6D3B100B91F38 /* CaloriesDepletedViewController.swift */; };
+		469E010925E1CCD100FD0D97 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E010825E1CCD100FD0D97 /* GradientButton.swift */; };
+		469E011025E1DAB000FD0D97 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E010E25E1DAB000FD0D97 /* TableViewCell.swift */; };
+		469E011125E1DAB000FD0D97 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 469E010F25E1DAB000FD0D97 /* TableViewCell.xib */; };
+		469E011625E1DD9800FD0D97 /* CustomMealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E011525E1DD9800FD0D97 /* CustomMealsViewController.swift */; };
+		46A0BE4625CF29BC007B69BC /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A0BE4525CF29BC007B69BC /* EntryViewController.swift */; };
+		46A1FEC225E45E3100AE90E2 /* Recepie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1FEC125E45E3100AE90E2 /* Recepie.swift */; };
+		46A892B225DB0DC900F5DE74 /* HorizontalProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A892B125DB0DC900F5DE74 /* HorizontalProgressBar.swift */; };
+		46A892B925DB1A6000F5DE74 /* circularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A892B825DB1A6000F5DE74 /* circularProgressBar.swift */; };
+		46AA528525F019BA00A45909 /* trackMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA528425F019BA00A45909 /* trackMealViewController.swift */; };
+		46AC23C725CC7C4F0038521C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC23C625CC7C4F0038521C /* AppDelegate.swift */; };
+		46AC23C925CC7C4F0038521C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC23C825CC7C4F0038521C /* SceneDelegate.swift */; };
+		46AC23CE25CC7C4F0038521C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46AC23CC25CC7C4F0038521C /* Main.storyboard */; };
+		46AC23D025CC7C500038521C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AC23CF25CC7C500038521C /* Assets.xcassets */; };
+		46AC23D325CC7C500038521C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46AC23D125CC7C500038521C /* LaunchScreen.storyboard */; };
+		46AC23E425CC7DED0038521C /* InfoStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC23E325CC7DED0038521C /* InfoStartViewController.swift */; };
+		46B2827425DB36FE005F5F3B /* KetoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B2827325DB36FE005F5F3B /* KetoViewController.swift */; };
+		46B5D75525D8734500A562EA /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B5D75425D8734500A562EA /* Util.swift */; };
+		46B5D75A25D8760C00A562EA /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B5D75925D8760C00A562EA /* TestModel.swift */; };
+		46B5D75E25D8767300A562EA /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B5D75D25D8767300A562EA /* DatabaseManager.swift */; };
+		46B5D76325D8933A00A562EA /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B5D76225D8933A00A562EA /* Enums.swift */; };
+		46D8BA5525E0918700331D98 /* SetMealGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D8BA5425E0918700331D98 /* SetMealGoalsViewController.swift */; };
+		46DA31482618F7E2005C6622 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46DA31472618F7E2005C6622 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F0726A3F20638D11359D46E /* Pods-KTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTA.release.xcconfig"; path = "Target Support Files/Pods-KTA/Pods-KTA.release.xcconfig"; sourceTree = "<group>"; };
+		460506C325CF3C41006A1418 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		460506C725CF41B7006A1418 /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		460506CA25CF5979006A1418 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		460506CD25CF5CFA006A1418 /* AgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
+		460506D025CF5F49006A1418 /* HeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightViewController.swift; sourceTree = "<group>"; };
+		460506D325CF6104006A1418 /* CurrentWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeightViewController.swift; sourceTree = "<group>"; };
+		460506D625CF6286006A1418 /* GoalWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalWeightViewController.swift; sourceTree = "<group>"; };
+		460506D925CF6465006A1418 /* DurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationViewController.swift; sourceTree = "<group>"; };
+		460506E825D0A4A5006A1418 /* CustomUISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUISlider.swift; sourceTree = "<group>"; };
+		460FC01325DF029600078D1A /* GradientCircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCircularProgressBar.swift; sourceTree = "<group>"; };
+		460FC01C25DF07DC00078D1A /* MealTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTrackingViewController.swift; sourceTree = "<group>"; };
+		460FC02025DF195200078D1A /* LogWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWeightViewController.swift; sourceTree = "<group>"; };
+		4625CF8C25D49A1B008FF28D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4629340825EE7D5D004536AC /* CustomMealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMealTableViewCell.swift; sourceTree = "<group>"; };
+		4629340925EE7D5D004536AC /* CustomMealTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMealTableViewCell.xib; sourceTree = "<group>"; };
+		4629340D25EE82E7004536AC /* RecepieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieDetailsViewController.swift; sourceTree = "<group>"; };
+		4629341025EE8BA8004536AC /* CustomMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMeal.swift; sourceTree = "<group>"; };
+		4629341425EE9E77004536AC /* KTADB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = KTADB.db; sourceTree = SOURCE_ROOT; };
+		4629341725EFADA2004536AC /* CustomMealsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMealsDetailsViewController.swift; sourceTree = "<group>"; };
+		4629341A25EFB715004536AC /* AddCustomMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomMealViewController.swift; sourceTree = "<group>"; };
+		462BF42D2684A8AA002125DD /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		462C65C42610014E00DF6DFD /* FiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
+		462E76A025D553EA006D493D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		462E76A325D553F5006D493D /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		462E76A625D55400006D493D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		462E76A925D5540B006D493D /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		462E76AC25D5543D006D493D /* RecepiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepiesViewController.swift; sourceTree = "<group>"; };
+		462E76B525D5CE12006D493D /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		462E76B825D5CE29006D493D /* DisclaimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
+		462E76BB25D5CE37006D493D /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		462E76BE25D5CE46006D493D /* InviteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		4644D67925F6A00A00136CEE /* ActivityLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLevelViewController.swift; sourceTree = "<group>"; };
+		46567D2E2610E18D00747345 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		46567D312610E1C500747345 /* InAppPurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPurchaseViewController.swift; sourceTree = "<group>"; };
+		46567D342610E1EF00747345 /* ThanksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksViewController.swift; sourceTree = "<group>"; };
+		46567D372610E24100747345 /* StartJourneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartJourneyViewController.swift; sourceTree = "<group>"; };
+		46567D4E26113EA700747345 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		465E30CB260A9D8C00FD35C2 /* BreakFastReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakFastReminderViewController.swift; sourceTree = "<group>"; };
+		465E30CE260A9DA900FD35C2 /* LunchReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchReminderViewController.swift; sourceTree = "<group>"; };
+		465E30D1260A9DB700FD35C2 /* DinnerReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerReminderViewController.swift; sourceTree = "<group>"; };
+		465E30D4260A9DC500FD35C2 /* WaterReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminderViewController.swift; sourceTree = "<group>"; };
+		465E30D7260A9DD700FD35C2 /* WeightLogReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLogReminderViewController.swift; sourceTree = "<group>"; };
+		467E318325F024DA00462E08 /* MealTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTracking.swift; sourceTree = "<group>"; };
+		468481682601626000493D53 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		4684816E2602AB3100493D53 /* PersonalSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalSettingsViewController.swift; sourceTree = "<group>"; };
+		468481712602AB4500493D53 /* NotificationsSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsSettingsViewController.swift; sourceTree = "<group>"; };
+		468481742602AE0000493D53 /* UpdateActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateActivityViewController.swift; sourceTree = "<group>"; };
+		468481772602AE1500493D53 /* UpdateAgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateAgeViewController.swift; sourceTree = "<group>"; };
+		4684817A2602AE2600493D53 /* UpdateHeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateHeightViewController.swift; sourceTree = "<group>"; };
+		4684817D2602AE3900493D53 /* UpdateCurrentWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCurrentWeightViewController.swift; sourceTree = "<group>"; };
+		468481802602AE4700493D53 /* UpdateTargetWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTargetWeightViewController.swift; sourceTree = "<group>"; };
+		4692886E25F6CCFA00B91F38 /* CaloriesDepleted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesDepleted.swift; sourceTree = "<group>"; };
+		4692887125F6CD0900B91F38 /* WeightTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTracking.swift; sourceTree = "<group>"; };
+		4692887425F6CD1C00B91F38 /* WaterTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTracking.swift; sourceTree = "<group>"; };
+		4692887725F6D3B100B91F38 /* CaloriesDepletedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesDepletedViewController.swift; sourceTree = "<group>"; };
+		469E010825E1CCD100FD0D97 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		469E010E25E1DAB000FD0D97 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		469E010F25E1DAB000FD0D97 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		469E011525E1DD9800FD0D97 /* CustomMealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMealsViewController.swift; sourceTree = "<group>"; };
+		46A0BE4525CF29BC007B69BC /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		46A1FEC125E45E3100AE90E2 /* Recepie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recepie.swift; sourceTree = "<group>"; };
+		46A892B125DB0DC900F5DE74 /* HorizontalProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalProgressBar.swift; sourceTree = "<group>"; };
+		46A892B825DB1A6000F5DE74 /* circularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circularProgressBar.swift; sourceTree = "<group>"; };
+		46AA528425F019BA00A45909 /* trackMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackMealViewController.swift; sourceTree = "<group>"; };
+		46AC23C325CC7C4F0038521C /* KTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AC23C625CC7C4F0038521C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46AC23C825CC7C4F0038521C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		46AC23CD25CC7C4F0038521C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46AC23CF25CC7C500038521C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46AC23D225CC7C500038521C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46AC23D425CC7C500038521C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AC23E325CC7DED0038521C /* InfoStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoStartViewController.swift; sourceTree = "<group>"; };
+		46B2827325DB36FE005F5F3B /* KetoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetoViewController.swift; sourceTree = "<group>"; };
+		46B5D75425D8734500A562EA /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		46B5D75925D8760C00A562EA /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		46B5D75D25D8767300A562EA /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		46B5D76225D8933A00A562EA /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		46D8BA5425E0918700331D98 /* SetMealGoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMealGoalsViewController.swift; sourceTree = "<group>"; };
+		46DA31472618F7E2005C6622 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EAF33EF0534E13811DAF2DA3 /* Pods-KTA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTA.debug.xcconfig"; path = "Target Support Files/Pods-KTA/Pods-KTA.debug.xcconfig"; sourceTree = "<group>"; };
+		FE32B682A4EE7A76D2938035 /* Pods_KTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46AC23C025CC7C4F0038521C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151F85570258AD3F2A4BEBB0 /* Pods_KTA.framework in Frameworks */,
+				46567D4F26113EA700747345 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460506E625D09264006A1418 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				460506E825D0A4A5006A1418 /* CustomUISlider.swift */,
+				46A892B125DB0DC900F5DE74 /* HorizontalProgressBar.swift */,
+				46A892B825DB1A6000F5DE74 /* circularProgressBar.swift */,
+				460FC01325DF029600078D1A /* GradientCircularProgressBar.swift */,
+				469E010825E1CCD100FD0D97 /* GradientButton.swift */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		460FC01B25DF07B000078D1A /* MealsTracking */ = {
+			isa = PBXGroup;
+			children = (
+				460FC01C25DF07DC00078D1A /* MealTrackingViewController.swift */,
+				46D8BA5425E0918700331D98 /* SetMealGoalsViewController.swift */,
+			);
+			path = MealsTracking;
+			sourceTree = "<group>";
+		};
+		4625CF8625D499B2008FF28D /* TabbedView */ = {
+			isa = PBXGroup;
+			children = (
+				4625CF8C25D49A1B008FF28D /* TabBarViewController.swift */,
+				462E76A025D553EA006D493D /* HomeViewController.swift */,
+				462E76A325D553F5006D493D /* FoodViewController.swift */,
+				462E76A625D55400006D493D /* ChatViewController.swift */,
+				462E76A925D5540B006D493D /* MoreViewController.swift */,
+				462E76AC25D5543D006D493D /* RecepiesViewController.swift */,
+			);
+			path = TabbedView;
+			sourceTree = "<group>";
+		};
+		462E76AF25D5C7DB006D493D /* More */ = {
+			isa = PBXGroup;
+			children = (
+				462E76B525D5CE12006D493D /* TermsViewController.swift */,
+				462E76B825D5CE29006D493D /* DisclaimerViewController.swift */,
+				462E76BB25D5CE37006D493D /* FeedbackViewController.swift */,
+				462E76BE25D5CE46006D493D /* InviteViewController.swift */,
+				4684816E2602AB3100493D53 /* PersonalSettingsViewController.swift */,
+				468481712602AB4500493D53 /* NotificationsSettingsViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		462E76B025D5C7E6006D493D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				46B5D75825D875F500A562EA /* Models */,
+				46B5D76225D8933A00A562EA /* Enums.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		46567D2C2610E16A00747345 /* InApp */ = {
+			isa = PBXGroup;
+			children = (
+				46567D2E2610E18D00747345 /* JoinViewController.swift */,
+				46567D312610E1C500747345 /* InAppPurchaseViewController.swift */,
+				46567D342610E1EF00747345 /* ThanksViewController.swift */,
+				46567D372610E24100747345 /* StartJourneyViewController.swift */,
+			);
+			path = InApp;
+			sourceTree = "<group>";
+		};
+		4684816B2602AAEF00493D53 /* personalSettings */ = {
+			isa = PBXGroup;
+			children = (
+				468481742602AE0000493D53 /* UpdateActivityViewController.swift */,
+				468481772602AE1500493D53 /* UpdateAgeViewController.swift */,
+				4684817A2602AE2600493D53 /* UpdateHeightViewController.swift */,
+				4684817D2602AE3900493D53 /* UpdateCurrentWeightViewController.swift */,
+				468481802602AE4700493D53 /* UpdateTargetWeightViewController.swift */,
+			);
+			path = personalSettings;
+			sourceTree = "<group>";
+		};
+		4684816C2602AB0800493D53 /* notificationsSettings */ = {
+			isa = PBXGroup;
+			children = (
+				465E30CB260A9D8C00FD35C2 /* BreakFastReminderViewController.swift */,
+				465E30CE260A9DA900FD35C2 /* LunchReminderViewController.swift */,
+				465E30D1260A9DB700FD35C2 /* DinnerReminderViewController.swift */,
+				465E30D4260A9DC500FD35C2 /* WaterReminderViewController.swift */,
+				465E30D7260A9DD700FD35C2 /* WeightLogReminderViewController.swift */,
+			);
+			path = notificationsSettings;
+			sourceTree = "<group>";
+		};
+		469E010B25E1DA7700FD0D97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				469E010D25E1DA8E00FD0D97 /* CustomMealCells */,
+				469E010C25E1DA8200FD0D97 /* RecepiesCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		469E010C25E1DA8200FD0D97 /* RecepiesCell */ = {
+			isa = PBXGroup;
+			children = (
+				469E010E25E1DAB000FD0D97 /* TableViewCell.swift */,
+				469E010F25E1DAB000FD0D97 /* TableViewCell.xib */,
+			);
+			path = RecepiesCell;
+			sourceTree = "<group>";
+		};
+		469E010D25E1DA8E00FD0D97 /* CustomMealCells */ = {
+			isa = PBXGroup;
+			children = (
+				4629340825EE7D5D004536AC /* CustomMealTableViewCell.swift */,
+				4629340925EE7D5D004536AC /* CustomMealTableViewCell.xib */,
+			);
+			path = CustomMealCells;
+			sourceTree = "<group>";
+		};
+		469E011425E1DD4C00FD0D97 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				469E011525E1DD9800FD0D97 /* CustomMealsViewController.swift */,
+				4629340D25EE82E7004536AC /* RecepieDetailsViewController.swift */,
+				4629341725EFADA2004536AC /* CustomMealsDetailsViewController.swift */,
+				4629341A25EFB715004536AC /* AddCustomMealViewController.swift */,
+				46AA528425F019BA00A45909 /* trackMealViewController.swift */,
+				462C65C42610014E00DF6DFD /* FiltersViewController.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		46A0BE4325CF27A6007B69BC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				46AC23E325CC7DED0038521C /* InfoStartViewController.swift */,
+				460506C725CF41B7006A1418 /* GoalViewController.swift */,
+				460506CA25CF5979006A1418 /* SignInViewController.swift */,
+				460506CD25CF5CFA006A1418 /* AgeViewController.swift */,
+				460506D025CF5F49006A1418 /* HeightViewController.swift */,
+				460506D325CF6104006A1418 /* CurrentWeightViewController.swift */,
+				460506D625CF6286006A1418 /* GoalWeightViewController.swift */,
+				4644D67925F6A00A00136CEE /* ActivityLevelViewController.swift */,
+				460506D925CF6465006A1418 /* DurationViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		46A1FEC025E45E1B00AE90E2 /* serverModel */ = {
+			isa = PBXGroup;
+			children = (
+				46A1FEC125E45E3100AE90E2 /* Recepie.swift */,
+			);
+			path = serverModel;
+			sourceTree = "<group>";
+		};
+		46AC23BA25CC7C4F0038521C = {
+			isa = PBXGroup;
+			children = (
+				46AC23C525CC7C4F0038521C /* KTA */,
+				46AC23C425CC7C4F0038521C /* Products */,
+				BF8F9D697071282EC1D95A33 /* Pods */,
+				F20EC702EEDA3827324E8FE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46AC23C425CC7C4F0038521C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46AC23C325CC7C4F0038521C /* KTA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46AC23C525CC7C4F0038521C /* KTA */ = {
+			isa = PBXGroup;
+			children = (
+				460506E625D09264006A1418 /* CustomControls */,
+				46B5D74C25D8714100A562EA /* Database */,
+				462E76B025D5C7E6006D493D /* Shared */,
+				46B5D76125D8915700A562EA /* Controllers */,
+				469E010B25E1DA7700FD0D97 /* Views */,
+				46AC23C625CC7C4F0038521C /* AppDelegate.swift */,
+				46AC23C825CC7C4F0038521C /* SceneDelegate.swift */,
+				46AC23D425CC7C500038521C /* Info.plist */,
+				46DA31472618F7E2005C6622 /* GoogleService-Info.plist */,
+				46AC23CC25CC7C4F0038521C /* Main.storyboard */,
+				46AC23CF25CC7C500038521C /* Assets.xcassets */,
+				460506C325CF3C41006A1418 /* Colors.xcassets */,
+				46AC23D125CC7C500038521C /* LaunchScreen.storyboard */,
+				462BF42D2684A8AA002125DD /* Configuration.storekit */,
+			);
+			path = KTA;
+			sourceTree = "<group>";
+		};
+		46B2827225DB36DD005F5F3B /* KetoTracking */ = {
+			isa = PBXGroup;
+			children = (
+				46B2827325DB36FE005F5F3B /* KetoViewController.swift */,
+				460FC02025DF195200078D1A /* LogWeightViewController.swift */,
+				4692887725F6D3B100B91F38 /* CaloriesDepletedViewController.swift */,
+			);
+			path = KetoTracking;
+			sourceTree = "<group>";
+		};
+		46B5D74C25D8714100A562EA /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				4629341425EE9E77004536AC /* KTADB.db */,
+				46B5D75425D8734500A562EA /* Util.swift */,
+				46B5D75D25D8767300A562EA /* DatabaseManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		46B5D75825D875F500A562EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46A1FEC025E45E1B00AE90E2 /* serverModel */,
+				46B5D75925D8760C00A562EA /* TestModel.swift */,
+				4629341025EE8BA8004536AC /* CustomMeal.swift */,
+				467E318325F024DA00462E08 /* MealTracking.swift */,
+				4692886E25F6CCFA00B91F38 /* CaloriesDepleted.swift */,
+				4692887125F6CD0900B91F38 /* WeightTracking.swift */,
+				4692887425F6CD1C00B91F38 /* WaterTracking.swift */,
+				468481682601626000493D53 /* Bookmark.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46B5D76125D8915700A562EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				46A0BE4525CF29BC007B69BC /* EntryViewController.swift */,
+				46A0BE4325CF27A6007B69BC /* Onboarding */,
+				46567D2C2610E16A00747345 /* InApp */,
+				4625CF8625D499B2008FF28D /* TabbedView */,
+				46B2827225DB36DD005F5F3B /* KetoTracking */,
+				460FC01B25DF07B000078D1A /* MealsTracking */,
+				469E011425E1DD4C00FD0D97 /* Food */,
+				462E76AF25D5C7DB006D493D /* More */,
+				4684816B2602AAEF00493D53 /* personalSettings */,
+				4684816C2602AB0800493D53 /* notificationsSettings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BF8F9D697071282EC1D95A33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAF33EF0534E13811DAF2DA3 /* Pods-KTA.debug.xcconfig */,
+				2F0726A3F20638D11359D46E /* Pods-KTA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F20EC702EEDA3827324E8FE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46567D4E26113EA700747345 /* StoreKit.framework */,
+				FE32B682A4EE7A76D2938035 /* Pods_KTA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46AC23C225CC7C4F0038521C /* KTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46AC23D725CC7C500038521C /* Build configuration list for PBXNativeTarget "KTA" */;
+			buildPhases = (
+				4826753F2B4CB5113C073AAA /* [CP] Check Pods Manifest.lock */,
+				46AC23BF25CC7C4F0038521C /* Sources */,
+				46AC23C025CC7C4F0038521C /* Frameworks */,
+				46AC23C125CC7C4F0038521C /* Resources */,
+				8D0BD02C1F36A52BF7E5BD98 /* [CP] Embed Pods Frameworks */,
+				46578B7726140A8B007D69CC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTA;
+			productName = KTA;
+			productReference = 46AC23C325CC7C4F0038521C /* KTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46AC23BB25CC7C4F0038521C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					46AC23C225CC7C4F0038521C = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 46AC23BE25CC7C4F0038521C /* Build configuration list for PBXProject "KTA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46AC23BA25CC7C4F0038521C;
+			productRefGroup = 46AC23C425CC7C4F0038521C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46AC23C225CC7C4F0038521C /* KTA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46AC23C125CC7C4F0038521C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46AC23D325CC7C500038521C /* LaunchScreen.storyboard in Resources */,
+				46DA31482618F7E2005C6622 /* GoogleService-Info.plist in Resources */,
+				469E011125E1DAB000FD0D97 /* TableViewCell.xib in Resources */,
+				4629340B25EE7D5D004536AC /* CustomMealTableViewCell.xib in Resources */,
+				460506C425CF3C41006A1418 /* Colors.xcassets in Resources */,
+				46AC23D025CC7C500038521C /* Assets.xcassets in Resources */,
+				4629341525EE9E77004536AC /* KTADB.db in Resources */,
+				46AC23CE25CC7C4F0038521C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46578B7726140A8B007D69CC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		4826753F2B4CB5113C073AAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D0BD02C1F36A52BF7E5BD98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KTA/Pods-KTA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KTA/Pods-KTA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KTA/Pods-KTA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46AC23BF25CC7C4F0038521C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A1FEC225E45E3100AE90E2 /* Recepie.swift in Sources */,
+				46AC23E425CC7DED0038521C /* InfoStartViewController.swift in Sources */,
+				46567D2F2610E18D00747345 /* JoinViewController.swift in Sources */,
+				460FC02125DF195200078D1A /* LogWeightViewController.swift in Sources */,
+				4692887225F6CD0900B91F38 /* WeightTracking.swift in Sources */,
+				4629340E25EE82E7004536AC /* RecepieDetailsViewController.swift in Sources */,
+				46B5D76325D8933A00A562EA /* Enums.swift in Sources */,
+				462E76A425D553F5006D493D /* FoodViewController.swift in Sources */,
+				4692886F25F6CCFA00B91F38 /* CaloriesDepleted.swift in Sources */,
+				462E76B925D5CE29006D493D /* DisclaimerViewController.swift in Sources */,
+				465E30D8260A9DD700FD35C2 /* WeightLogReminderViewController.swift in Sources */,
+				469E011025E1DAB000FD0D97 /* TableViewCell.swift in Sources */,
+				465E30CC260A9D8C00FD35C2 /* BreakFastReminderViewController.swift in Sources */,
+				46B5D75A25D8760C00A562EA /* TestModel.swift in Sources */,
+				468481752602AE0000493D53 /* UpdateActivityViewController.swift in Sources */,
+				46B2827425DB36FE005F5F3B /* KetoViewController.swift in Sources */,
+				462E76BF25D5CE46006D493D /* InviteViewController.swift in Sources */,
+				462C65C52610014E00DF6DFD /* FiltersViewController.swift in Sources */,
+				46A892B225DB0DC900F5DE74 /* HorizontalProgressBar.swift in Sources */,
+				4684817B2602AE2600493D53 /* UpdateHeightViewController.swift in Sources */,
+				468481812602AE4800493D53 /* UpdateTargetWeightViewController.swift in Sources */,
+				465E30D2260A9DB700FD35C2 /* DinnerReminderViewController.swift in Sources */,
+				468481782602AE1500493D53 /* UpdateAgeViewController.swift in Sources */,
+				462E76A725D55400006D493D /* ChatViewController.swift in Sources */,
+				46D8BA5525E0918700331D98 /* SetMealGoalsViewController.swift in Sources */,
+				460506C825CF41B7006A1418 /* GoalViewController.swift in Sources */,
+				4629341825EFADA2004536AC /* CustomMealsDetailsViewController.swift in Sources */,
+				46B5D75E25D8767300A562EA /* DatabaseManager.swift in Sources */,
+				469E011625E1DD9800FD0D97 /* CustomMealsViewController.swift in Sources */,
+				460FC01425DF029600078D1A /* GradientCircularProgressBar.swift in Sources */,
+				460FC01D25DF07DC00078D1A /* MealTrackingViewController.swift in Sources */,
+				4629341B25EFB715004536AC /* AddCustomMealViewController.swift in Sources */,
+				4644D67A25F6A00A00136CEE /* ActivityLevelViewController.swift in Sources */,
+				46AA528525F019BA00A45909 /* trackMealViewController.swift in Sources */,
+				468481692601626000493D53 /* Bookmark.swift in Sources */,
+				469E010925E1CCD100FD0D97 /* GradientButton.swift in Sources */,
+				467E318425F024DA00462E08 /* MealTracking.swift in Sources */,
+				4684817E2602AE3900493D53 /* UpdateCurrentWeightViewController.swift in Sources */,
+				46567D322610E1C500747345 /* InAppPurchaseViewController.swift in Sources */,
+				460506CE25CF5CFA006A1418 /* AgeViewController.swift in Sources */,
+				4629341125EE8BA8004536AC /* CustomMeal.swift in Sources */,
+				4684816F2602AB3100493D53 /* PersonalSettingsViewController.swift in Sources */,
+				46A892B925DB1A6000F5DE74 /* circularProgressBar.swift in Sources */,
+				46567D382610E24100747345 /* StartJourneyViewController.swift in Sources */,
+				4629340A25EE7D5D004536AC /* CustomMealTableViewCell.swift in Sources */,
+				460506CB25CF5979006A1418 /* SignInViewController.swift in Sources */,
+				462E76AA25D5540B006D493D /* MoreViewController.swift in Sources */,
+				460506D425CF6104006A1418 /* CurrentWeightViewController.swift in Sources */,
+				462E76A125D553EA006D493D /* HomeViewController.swift in Sources */,
+				4692887825F6D3B100B91F38 /* CaloriesDepletedViewController.swift in Sources */,
+				460506DA25CF6465006A1418 /* DurationViewController.swift in Sources */,
+				4692887525F6CD1C00B91F38 /* WaterTracking.swift in Sources */,
+				462E76AD25D5543D006D493D /* RecepiesViewController.swift in Sources */,
+				462E76BC25D5CE37006D493D /* FeedbackViewController.swift in Sources */,
+				46567D352610E1EF00747345 /* ThanksViewController.swift in Sources */,
+				465E30D5260A9DC500FD35C2 /* WaterReminderViewController.swift in Sources */,
+				46B5D75525D8734500A562EA /* Util.swift in Sources */,
+				46A0BE4625CF29BC007B69BC /* EntryViewController.swift in Sources */,
+				460506D125CF5F49006A1418 /* HeightViewController.swift in Sources */,
+				462E76B625D5CE12006D493D /* TermsViewController.swift in Sources */,
+				468481722602AB4500493D53 /* NotificationsSettingsViewController.swift in Sources */,
+				46AC23C725CC7C4F0038521C /* AppDelegate.swift in Sources */,
+				46AC23C925CC7C4F0038521C /* SceneDelegate.swift in Sources */,
+				465E30CF260A9DA900FD35C2 /* LunchReminderViewController.swift in Sources */,
+				4625CF8D25D49A1B008FF28D /* TabBarViewController.swift in Sources */,
+				460506D725CF6286006A1418 /* GoalWeightViewController.swift in Sources */,
+				460506E925D0A4A5006A1418 /* CustomUISlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46AC23CC25CC7C4F0038521C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46AC23CD25CC7C4F0038521C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46AC23D125CC7C500038521C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46AC23D225CC7C500038521C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46AC23D525CC7C500038521C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46AC23D625CC7C500038521C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46AC23D825CC7C500038521C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF33EF0534E13811DAF2DA3 /* Pods-KTA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = D8KB2247X7;
+				INFOPLIST_FILE = KTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sggroups.keto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DIstProfile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		46AC23D925CC7C500038521C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0726A3F20638D11359D46E /* Pods-KTA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = D8KB2247X7;
+				INFOPLIST_FILE = KTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sggroups.keto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DIstProfile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46AC23BE25CC7C4F0038521C /* Build configuration list for PBXProject "KTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46AC23D525CC7C500038521C /* Debug */,
+				46AC23D625CC7C500038521C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46AC23D725CC7C500038521C /* Build configuration list for PBXNativeTarget "KTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46AC23D825CC7C500038521C /* Debug */,
+				46AC23D925CC7C500038521C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46AC23BB25CC7C4F0038521C /* Project object */;
+}
